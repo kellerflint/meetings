@@ -3,20 +3,20 @@ let meetings = [
     {
         id: 1,
         parentId: 0,
-        name: "Meeting 1",
-        text: "Meeting 1 text",
+        name: "The Lobby",
+        text: "Welcome to the lobby! Please join the appropriate meeting to meet your assigned group.",
         children: [
             {
                 id: 2,
                 parentId: 1,
-                name: "Child Meeting 1",
-                text: "Child Meeting 1 Text",
+                name: "Diversity and Inclusion Team 1",
+                text: "Hey there! Introducing the best group of the bunch...",
                 children: [
                     {
                         id: 7,
                         parentId: 2,
-                        name: "Child Child Meeting 1",
-                        text: "Child Child Meeting 1",
+                        name: "One on One",
+                        text: "Join here for more specified side discussions involving fewer team members",
                         children: []
                     }
                 ]
@@ -24,14 +24,14 @@ let meetings = [
             {
                 id: 3,
                 parentId: 1,
-                name: "Child Meeting 2",
+                name: "Diversity and Inclusion Team 2",
                 text: "Child Meeting 2 Text",
                 children: []
             },
             {
                 id: 4,
                 parentId: 1,
-                name: "Child Meeting 3",
+                name: "Diversity and Inclusion Team 3",
                 text: "Child Meeting 3 Text",
                 children: [
                     {
